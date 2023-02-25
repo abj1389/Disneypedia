@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.card__img{
+    height: 100px;
+    margin: 10px;
+}
+
+.card__name{
+    color: #000000;
+}
+
+.card__text{
+    color: #000000;
+}

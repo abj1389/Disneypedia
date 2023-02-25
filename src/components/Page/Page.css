@@ -1,0 +1,39 @@
+.page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.page__previous{
+    padding: 0 20px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+}
+
+.page__next{
+    padding: 0 20px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+}
+
+.page__previous--none{
+    background-color: grey;
+}
+
+.page__next--none{
+    background-color: grey;
+}
+
+.page__number{
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
