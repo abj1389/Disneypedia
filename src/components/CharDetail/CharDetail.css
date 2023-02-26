@@ -12,6 +12,7 @@
 
 .box{
     width: 400px;
+    max-height: 90vh;
     background-color: #FFFFFF;
     color: #000000;
     display: flex;
@@ -19,5 +20,14 @@
     align-items: center;
     border-radius: 5px;
     position: relative;
+    overflow: scroll;
+}
+
+.box__img{
+    border-radius: 5px;
+}
+
+.box__text{
+    margin: 30px 20px;
 }
 
